@@ -2,13 +2,14 @@
   "name": "module-bundler",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc"
+    "build": "esbuild src/index.ts --bundle --platform=node --external:graphql --external:graphql-modules --outdir=dist"
   },
   "dependencies": {
     "graphql": "16.8.1",
     "graphql-modules": "2.3.0"
   },
   "devDependencies": {
+    "esbuild": "0.19.9",
     "typescript": "5.3.3"
   }
 }
