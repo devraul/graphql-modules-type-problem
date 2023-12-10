@@ -2,6 +2,7 @@
   "name": "module-nodenext",
   "version": "1.0.0",
   "scripts": {
+    "lint": "tsc --noEmit",
     "build": "tsc"
   },
   "dependencies": {
