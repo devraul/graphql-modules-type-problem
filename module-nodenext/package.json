@@ -1,0 +1,14 @@
+{
+  "name": "module-nodenext",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "graphql": "16.8.1",
+    "graphql-modules": "2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
+}
